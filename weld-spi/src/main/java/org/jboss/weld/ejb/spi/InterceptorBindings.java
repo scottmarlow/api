@@ -21,8 +21,8 @@ import java.lang.reflect.Method;
 import java.util.Collection;
 import java.util.List;
 
-import javax.enterprise.inject.spi.InterceptionType;
-import javax.enterprise.inject.spi.Interceptor;
+import jakarta.enterprise.inject.spi.InterceptionType;
+import jakarta.enterprise.inject.spi.Interceptor;
 import javax.interceptor.InterceptorBinding;
 
 /**

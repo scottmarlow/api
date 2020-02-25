@@ -16,7 +16,7 @@
  */
 package org.jboss.weld.construction.api;
 
-import javax.enterprise.context.spi.CreationalContext;
+import jakarta.enterprise.context.spi.CreationalContext;
 import javax.interceptor.AroundConstruct;
 import javax.interceptor.Interceptors;
 

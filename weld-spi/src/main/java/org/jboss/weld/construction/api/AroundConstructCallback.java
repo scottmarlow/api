@@ -18,7 +18,7 @@ package org.jboss.weld.construction.api;
 
 import java.util.Map;
 
-import javax.enterprise.inject.spi.AnnotatedConstructor;
+import jakarta.enterprise.inject.spi.AnnotatedConstructor;
 import javax.interceptor.InvocationContext;
 
 /**

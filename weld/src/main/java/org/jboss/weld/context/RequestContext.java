@@ -2,7 +2,7 @@ package org.jboss.weld.context;
 
 import java.util.Map;
 
-import javax.enterprise.context.RequestScoped;
+import jakarta.enterprise.context.RequestScoped;
 import javax.interceptor.InvocationContext;
 import javax.servlet.ServletRequest;
 

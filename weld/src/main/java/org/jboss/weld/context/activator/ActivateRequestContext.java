@@ -23,8 +23,8 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
 
-import javax.enterprise.context.RequestScoped;
-import javax.enterprise.util.AnnotationLiteral;
+import jakarta.enterprise.context.RequestScoped;
+import jakarta.enterprise.util.AnnotationLiteral;
 import javax.interceptor.InterceptorBinding;
 
 /**
@@ -33,7 +33,7 @@ import javax.interceptor.InterceptorBinding;
  * If the request context is already active then the associated interceptor does nothing.
  * <p>
  * The interceptor is registered with a priority of {@link javax.interceptor.Interceptor.Priority#PLATFORM_BEFORE} + 100. The same value is used for
- * {@link javax.enterprise.context.control.ActivateRequestContext}.
+ * {@link jakarta.enterprise.context.control.ActivateRequestContext}.
  *
  * @author Tomas Remes
  * @author Martin Kouba
